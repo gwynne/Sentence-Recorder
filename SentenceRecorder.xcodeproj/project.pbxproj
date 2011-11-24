@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA781284147DCF2200A78477 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA781283147DCF2200A78477 /* Cocoa.framework */; };
+		FA78128E147DCF2200A78477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA78128C147DCF2200A78477 /* InfoPlist.strings */; };
+		FA781290147DCF2200A78477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78128F147DCF2200A78477 /* main.m */; };
+		FA781294147DCF2200A78477 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA781292147DCF2200A78477 /* Credits.rtf */; };
+		FA781297147DCF2200A78477 /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA781296147DCF2200A78477 /* SRAppDelegate.m */; };
+		FA78129A147DCF2300A78477 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA781298147DCF2300A78477 /* MainMenu.xib */; };
+		FA7812A2147DD2E200A78477 /* SRSentenceField.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7812A1147DD2E200A78477 /* SRSentenceField.m */; };
+		FA7812A4147DDD8F00A78477 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7812A3147DDD8F00A78477 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA78127F147DCF2200A78477 /* SentenceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentenceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA781283147DCF2200A78477 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA781286147DCF2200A78477 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA781287147DCF2200A78477 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA781288147DCF2200A78477 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA78128B147DCF2200A78477 /* SentenceRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SentenceRecorder-Info.plist"; sourceTree = "<group>"; };
+		FA78128D147DCF2200A78477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA78128F147DCF2200A78477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA781291147DCF2200A78477 /* SentenceRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SentenceRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		FA781293147DCF2200A78477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA781295147DCF2200A78477 /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		FA781296147DCF2200A78477 /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		FA781299147DCF2300A78477 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA7812A0147DD2E200A78477 /* SRSentenceField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSentenceField.h; sourceTree = "<group>"; };
+		FA7812A1147DD2E200A78477 /* SRSentenceField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSentenceField.m; sourceTree = "<group>"; };
+		FA7812A3147DDD8F00A78477 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA78127C147DCF2200A78477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7812A4147DDD8F00A78477 /* AVFoundation.framework in Frameworks */,
+				FA781284147DCF2200A78477 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA781274147DCF2200A78477 = {
+			isa = PBXGroup;
+			children = (
+				FA781289147DCF2200A78477 /* SentenceRecorder */,
+				FA781282147DCF2200A78477 /* Frameworks */,
+				FA781280147DCF2200A78477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA781280147DCF2200A78477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA78127F147DCF2200A78477 /* SentenceRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA781282147DCF2200A78477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7812A3147DDD8F00A78477 /* AVFoundation.framework */,
+				FA781283147DCF2200A78477 /* Cocoa.framework */,
+				FA781285147DCF2200A78477 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA781285147DCF2200A78477 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA781286147DCF2200A78477 /* AppKit.framework */,
+				FA781287147DCF2200A78477 /* CoreData.framework */,
+				FA781288147DCF2200A78477 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA781289147DCF2200A78477 /* SentenceRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				FA781295147DCF2200A78477 /* SRAppDelegate.h */,
+				FA781296147DCF2200A78477 /* SRAppDelegate.m */,
+				FA781298147DCF2300A78477 /* MainMenu.xib */,
+				FA78128A147DCF2200A78477 /* Supporting Files */,
+				FA7812A0147DD2E200A78477 /* SRSentenceField.h */,
+				FA7812A1147DD2E200A78477 /* SRSentenceField.m */,
+			);
+			path = SentenceRecorder;
+			sourceTree = "<group>";
+		};
+		FA78128A147DCF2200A78477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA78128B147DCF2200A78477 /* SentenceRecorder-Info.plist */,
+				FA78128C147DCF2200A78477 /* InfoPlist.strings */,
+				FA78128F147DCF2200A78477 /* main.m */,
+				FA781291147DCF2200A78477 /* SentenceRecorder-Prefix.pch */,
+				FA781292147DCF2200A78477 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA78127E147DCF2200A78477 /* SentenceRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA78129D147DCF2300A78477 /* Build configuration list for PBXNativeTarget "SentenceRecorder" */;
+			buildPhases = (
+				FA78127B147DCF2200A78477 /* Sources */,
+				FA78127C147DCF2200A78477 /* Frameworks */,
+				FA78127D147DCF2200A78477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentenceRecorder;
+			productName = SentenceRecorder;
+			productReference = FA78127F147DCF2200A78477 /* SentenceRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA781276147DCF2200A78477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FA781279147DCF2200A78477 /* Build configuration list for PBXProject "SentenceRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA781274147DCF2200A78477;
+			productRefGroup = FA781280147DCF2200A78477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA78127E147DCF2200A78477 /* SentenceRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA78127D147DCF2200A78477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA78128E147DCF2200A78477 /* InfoPlist.strings in Resources */,
+				FA781294147DCF2200A78477 /* Credits.rtf in Resources */,
+				FA78129A147DCF2300A78477 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA78127B147DCF2200A78477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA781290147DCF2200A78477 /* main.m in Sources */,
+				FA781297147DCF2200A78477 /* SRAppDelegate.m in Sources */,
+				FA7812A2147DD2E200A78477 /* SRSentenceField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA78128C147DCF2200A78477 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA78128D147DCF2200A78477 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA781292147DCF2200A78477 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA781293147DCF2200A78477 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA781298147DCF2300A78477 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA781299147DCF2300A78477 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA78129B147DCF2300A78477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA78129C147DCF2300A78477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA78129E147DCF2300A78477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SentenceRecorder/SentenceRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SentenceRecorder/SentenceRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA78129F147DCF2300A78477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SentenceRecorder/SentenceRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SentenceRecorder/SentenceRecorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA781279147DCF2200A78477 /* Build configuration list for PBXProject "SentenceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA78129B147DCF2300A78477 /* Debug */,
+				FA78129C147DCF2300A78477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA78129D147DCF2300A78477 /* Build configuration list for PBXNativeTarget "SentenceRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA78129E147DCF2300A78477 /* Debug */,
+				FA78129F147DCF2300A78477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA781276147DCF2200A78477 /* Project object */;
+}
